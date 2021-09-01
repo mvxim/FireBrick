@@ -1,0 +1,8 @@
+.table {
+  margin: 0 auto;
+  padding: 0 0 92px 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 304px);
+  gap: 64px 16px;
+}

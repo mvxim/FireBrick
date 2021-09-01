@@ -1,0 +1,6 @@
+.hero-avatar {
+  align-self: center;
+  max-width: 362px;
+  border-radius: 50%;
+  border: 11px solid #FFFFFF;
+}
