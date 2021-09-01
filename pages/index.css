@@ -5,9 +5,6 @@
 @import url(../blocks/page/page.css);
 /* @import url(../blocks/page/__container/page__container.css); */
 
-/* content */
-@import url(../blocks/content/content.css);
-
 /* portfolio */
 @import url(../blocks/portfolio/portfolio.css);
 @import url(../blocks/portfolio/__container/portfolio__container.css);
@@ -20,3 +17,10 @@
 @import url(../blocks/project/__details/project__details.css);
 @import url(../blocks/project/__cover/project__cover.css);
 @import url(../blocks/project/__button/project__button.css);
+
+/* gallery */
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__container/gallery__container.css);
+@import url(../blocks/gallery/__grid/gallery__grid.css);
+@import url(../blocks/gallery/__list-item/gallery__list-item.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
