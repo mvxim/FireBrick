@@ -1,0 +1,10 @@
+.hero__button {
+  width: 300px;
+}
+
+@media screen and (max-width: 475px) {
+  .hero__button {
+   width: 267px;
+   padding: 15px 0;
+  }
+}

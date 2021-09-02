@@ -41,9 +41,7 @@
                 и верстку небольшого сайта или интернет-магазина</p>
             </li>
             <li>
-              <form class="form-button">
-                <button class="form-button__button">Бесплатная консультация</button>
-              </form>
+              <button onclick="window.location.href='#contacts'" class="button hero__button">Бесплатная консультация</button>
             </li>
           </ul>
           <img src="images/avatar.jpg" class="hero-avatar" alt="Киану Ривз">
@@ -129,18 +127,18 @@
             <li class="gallery__list-item"><img src="./images/gallery03.jpg" alt="Группа людей, которые разговаривают и смеются." class="gallery__image"></li>
             <li class="gallery__list-item"><img src="./images/gallery04.jpg" alt="Светлая офисная столовая с длинными столами и зелеными растениями." class="gallery__image"></li>
             <li class="gallery__list-item"><img src="./images/gallery05.jpg" alt="Уличная вывеска с логотипом компании «Фигма»." class="gallery__image"></li>
-            <li class="gallery__list-item"><img src="./images/gallery06.jpg" alt="Крупный план ноутбука и темнокожей девушки, работающей за ним." class="gallery__image"></li>
+            <li class="gallery__list-item gallery__list-item_video"><p class="gallery__list-video">0:28</p><img src="./images/gallery06.jpg" alt="Крупный план ноутбука и темнокожей девушки, работающей за ним." class="gallery__image"></li>
             <li class="gallery__list-item"><img src="./images/gallery07.jpg" alt="Книжная полка в светлом помещении. На полке — книги и элементы декора." class="gallery__image"></li>
             <li class="gallery__list-item"><img src="./images/gallery08.jpg" alt="Столик на четверых в светлой офисной столовой." class="gallery__image"></li>
             <li class="gallery__list-item"><img src="./images/gallery09.jpg" alt="Темнокожая девушка позирует для фото и очаровательно улыбается." class="gallery__image"></li>
             <li class="gallery__list-item"><img src="./images/gallery10.jpg" alt="Крупный план блокнота на столе, в который мужчина с помощью штампа ставит оттиск со словом «Figma»." class="gallery__image"></li>
-            <li class="gallery__list-item"><img src="./images/gallery11.jpg" alt="Мост «Золотые ворота» в городе Сан-франциско в сумерках." class="gallery__image"></li>
+            <li class="gallery__list-item gallery__list-item_video"><p class="gallery__list-video">0:28</p><img src="./images/gallery11.jpg" alt="Мост «Золотые ворота» в городе Сан-франциско в сумерках." class="gallery__image"></li>
             <li class="gallery__list-item"><img src="./images/gallery12.jpg" alt="Компания работников принимает пищу, сидя за общим столом." class="gallery__image"></li>
           </ul>
         </div>
       </section>
     </main>
-    <footer class="contacts">
+    <footer id="contacts" class="contacts">
       <div class="contacts__container">
         <h2 class="contacts__title section-title">Свяжитесь со мной</h2>
         <div class="contacts__details">
@@ -148,7 +146,7 @@
             <h3 class="form__heading">Можете просто оставить заявку, я позвоню вам сегодня</h3>
             <input type="text" name="fullname" id="formName" class="form__text" placeholder="Ваше имя">
             <input type="tel" name="phone" id="formPhone" class="form__tel" placeholder="Ваш телефон">
-            <button type="submit" name="submit" id="formSubmit" class="form__button">бесплатная консультация</button>
+            <button type="submit" name="submit" id="formSubmit" class="button form__button">бесплатная консультация</button>
           </form>
           <ul class="medium">
             <li class="medium__phone">

@@ -1,3 +1,9 @@
 .gallery__list-item {
   aspect-ratio: 1/1;
+  position: relative;
+  transition: opacity .3s;
+}
+
+.gallery__list-item:hover {
+  opacity: .7;
 }
