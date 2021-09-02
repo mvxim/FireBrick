@@ -1,5 +1,7 @@
-/* normalize */
+/* normalize & fonts */
 @import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts/fonts.css);
 @import url(../vendor/fonts/font.css);
 
 /* global */
@@ -40,6 +42,12 @@
 @import url(../blocks/table/__logo/table__logo.css);
 @import url(../blocks/table/__text/table__text.css);
 
+/* content */
+@import url(../blocks/content/content.css);
+
+/* section-title */
+@import url(../blocks/section-title/section-title.css);
+
 /* portfolio */
 @import url(../blocks/portfolio/portfolio.css);
 @import url(../blocks/portfolio/__container/portfolio__container.css);
@@ -59,3 +67,30 @@
 @import url(../blocks/gallery/__grid/gallery__grid.css);
 @import url(../blocks/gallery/__list-item/gallery__list-item.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
+
+/* contacts */
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__container/contacts__container.css);
+@import url(../blocks/contacts/__title/contacts__title.css);
+@import url(../blocks/contacts/__details/contacts__details.css);
+
+/* form */
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__heading/form__heading.css);
+@import url(../blocks/form/__text/form__text.css);
+@import url(../blocks/form/__tel/form__tel.css);
+@import url(../blocks/form/__button/form__button.css);
+
+/* medium */
+@import url(../blocks/medium/medium.css);
+@import url(../blocks/medium/__name/medium__name.css);
+@import url(../blocks/medium/__link/medium__link.css);
+@import url(../blocks/medium/__phone/medium__phone.css);
+@import url(../blocks/medium/__email/medium__email.css);
+@import url(../blocks/medium/__social/medium__social.css);
+@import url(../blocks/medium/__social-list/medium__social-list.css);
+@import url(../blocks/medium/__social-item/medium__social-item.css);
+@import url(../blocks/medium/__social-icons/medium__social-icons.css);
+@import url(../blocks/medium/__social-icon/medium__social-icon.css);
+@import url(../blocks/medium/__policy/medium__policy.css);
+@import url(../blocks/medium/__policy-link/medium__policy-link.css);

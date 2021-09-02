@@ -1,12 +1,33 @@
 .gallery__grid {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0 0 15px 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(224px, 1fr));
   grid-gap: 16px;
   font-size: 0;
 }
+
+.gallery__grid::-webkit-scrollbar-track
+{
+  border-radius: 6px;
+	background-color: #CECECE;
+}
+
+.gallery__grid::-webkit-scrollbar
+{
+	height: 4px;
+  border-radius: 6px;
+	background-color: #CECECE;
+}
+
+.gallery__grid::-webkit-scrollbar-thumb
+{
+  border-radius: 6px;
+	background-color: #FFBB01;
+}
+
+
 
 @media screen and (max-width: 800px) {
   .gallery__grid {

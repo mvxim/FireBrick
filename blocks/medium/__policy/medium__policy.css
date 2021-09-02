@@ -1,0 +1,13 @@
+.medium__policy {
+  grid-row: 4/5;
+  grid-column: 1/-1;
+  align-self: end;
+}
+
+@media screen and (max-width: 475px) {
+  .medium__policy {
+    grid-row: 5/6;
+    grid-column: 1/-1;
+    margin-top: -9px;
+  }
+}

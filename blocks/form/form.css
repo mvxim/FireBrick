@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 457px;
+  padding: 47px 38px 61px;
+  background-color: #fff;
+  border-radius: 5px;
+  transform: translate(5px, -5px);
+  box-shadow: -5px 5px 0px #FFC41D;
+}
+
+@media screen and (max-width: 1040px) {
+  .form {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .form {
+    padding: 38px 22px 48px;
+  }
+}

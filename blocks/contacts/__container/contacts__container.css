@@ -1,12 +1,12 @@
-.gallery__container {
+.contacts__container {
   max-width: 944px;
   margin: 0 auto;
-  padding: 96px 48px;
+  padding: 64px 48px 87px;
 }
 
 @media screen and (max-width: 800px) {
-  .gallery__container {
+  .contacts__container {
     margin: 0 28px;
-    padding: 35px 0 35px;
+    padding: 63px 0 50px;
   }
 }
