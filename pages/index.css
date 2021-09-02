@@ -1,17 +1,26 @@
+/* normalize */
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/font.css);
 
+/* global */
 @import url(../blocks/page/page.css);
 
+/* content */
+@import url(../blocks/content/content.css);
+
+/* header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__socials/header__socials.css);
 
+/* social-icon */
 @import url(../blocks/social-icon/social-icon.css);
 @import url(../blocks/social-icon/__icon/social-icon__icon.css);
 
+/* link */
 @import url(../blocks/link/link.css);
 
+/* hero */
 @import url(../blocks/hero/hero.css);
 @import url(../blocks/hero-content/hero-content.css);
 @import url(../blocks/hero-group/hero-group.css);
@@ -22,6 +31,7 @@
 @import url(../blocks/form-button/__button/form-button__button.css);
 @import url(../blocks/hero-avatar/hero-avatar.css);
 
+/* features */
 @import url(../blocks/features/features.css);
 @import url(../blocks/features-content/features-content.css);
 @import url(../blocks/features-content/__title/features-content__title.css);
@@ -29,3 +39,16 @@
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__logo/table__logo.css);
 @import url(../blocks/table/__text/table__text.css);
+
+/* portfolio */
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__container/portfolio__container.css);
+@import url(../blocks/portfolio/__title/portfolio__title.css);
+@import url(../blocks/portfolio/__projects/portfolio__projects.css);
+
+/* project */
+@import url(../blocks/project/project.css);
+@import url(../blocks/project/__name/project__name.css);
+@import url(../blocks/project/__details/project__details.css);
+@import url(../blocks/project/__cover/project__cover.css);
+@import url(../blocks/project/__button/project__button.css);
