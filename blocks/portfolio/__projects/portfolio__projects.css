@@ -3,7 +3,7 @@
   column-gap: 16px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 800px) {
   .portfolio__projects {
     display: flex;
     flex-direction: column;
