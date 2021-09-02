@@ -1,13 +1,14 @@
 .project__name {
   margin: 0;
-  padding: 0;
+  padding: 0 0 10px 0;
   font-size: 18px;
   line-height: 1.6;
   font-weight: 700;
   z-index: 3;
+  white-space: pre-line;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 475px) {
   .project__name {
     font-size: 16px;
     line-height: 1.2;

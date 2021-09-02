@@ -10,29 +10,32 @@
 </head>
 
 <body class="page">
-  <main>
+  <main class="content">
     <section class="portfolio">
       <div class="portfolio__container">
-        <h2 class="portfolio__title">Выполненные проекты</h2>
+        <h2 class="portfolio__title section-title">Выполненные проекты</h2>
         <div class="portfolio__projects">
           <article class="project">
-            <img src="./images/portfolio1.jpg" alt="" class="project__cover">
+            <img src="./images/portfolio1.jpg" alt="МУжчина и женщина готовят напитки, стоя за барной стойкой." class="project__cover">
             <div class="project__details">
-              <h3 class="project__name">The curious corner of&nbsp;chamarel</h3>
+              <h3 class="project__name">The curious corner
+                of&nbsp;chamarel</h3>
               <a href="#" class="project__button">Посмотреть</a>
             </div>
           </article>
           <article class="project">
-            <img src="./images/portfolio2.jpg" alt="" class="project__cover">
+            <img src="./images/portfolio2.jpg" alt="Гольфист только что совершил удар по мячу." class="project__cover">
             <div class="project__details">
-              <h3 class="project__name">Gymkhana club golf&nbsp;course</h3>
+              <h3 class="project__name">Gymkhana club golf
+                course</h3>
               <a href="#" class="project__button">Посмотреть</a>
             </div>
           </article>
           <article class="project">
-            <img src="./images/portfolio3.jpg" alt="" class="project__cover">
+            <img src="./images/portfolio3.jpg" alt="Высокий водопад среди скал, покрытых зелеными мхами." class="project__cover">
             <div class="project__details">
-              <h3 class="project__name">Tamarind falls hiking trip&nbsp;-&nbsp;full day</h3>
+              <h3 class="project__name">Tamarind falls hiking
+                trip full day</h3>
               <a href="#" class="project__button">Посмотреть</a>
             </div>
           </article>
@@ -42,22 +45,63 @@
     <section class="gallery">
       <div class="gallery__container">
         <ul class="gallery__grid">
-          <li class="gallery__list-item"><img src="./images/gallery01.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery02.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery03.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery04.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery05.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery06.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery07.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery08.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery09.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery10.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery11.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery12.jpg" alt="" class="gallery__image"></li>
+          <li class="gallery__list-item"><img src="./images/gallery01.jpg" alt="Лаунж-зона с диваном, журнальным столиком, и ковром, на котором лежит белая собака." class="gallery__image"></li>
+          <li class="gallery__list-item"><img src="./images/gallery02.jpg" alt="Ряд столиков с местами на двоих, с подушками и лампами." class="gallery__image"></li>
+          <li class="gallery__list-item"><img src="./images/gallery03.jpg" alt="Группа людей, которые разговаривают и смеются." class="gallery__image"></li>
+          <li class="gallery__list-item"><img src="./images/gallery04.jpg" alt="Светлая офисная столовая с длинными столами и зелеными растениями." class="gallery__image"></li>
+          <li class="gallery__list-item"><img src="./images/gallery05.jpg" alt="Уличная вывеска с логотипом компании «Фигма»." class="gallery__image"></li>
+          <li class="gallery__list-item"><img src="./images/gallery06.jpg" alt="Крупный план ноутбука и темнокожей девушки, работающей за ним." class="gallery__image"></li>
+          <li class="gallery__list-item"><img src="./images/gallery07.jpg" alt="Книжная полка в светлом помещении. На полке — книги и элементы декора." class="gallery__image"></li>
+          <li class="gallery__list-item"><img src="./images/gallery08.jpg" alt="Столик на четверых в светлой офисной столовой." class="gallery__image"></li>
+          <li class="gallery__list-item"><img src="./images/gallery09.jpg" alt="Темнокожая девушка позирует для фото и очаровательно улыбается." class="gallery__image"></li>
+          <li class="gallery__list-item"><img src="./images/gallery10.jpg" alt="Крупный план блокнота на столе, в который мужчина с помощью штампа ставит оттиск со словом «Figma»." class="gallery__image"></li>
+          <li class="gallery__list-item"><img src="./images/gallery11.jpg" alt="Мост «Золотые ворота» в городе Сан-франциско в сумерках." class="gallery__image"></li>
+          <li class="gallery__list-item"><img src="./images/gallery12.jpg" alt="Компания работников принимает пищу, сидя за общим столом." class="gallery__image"></li>
         </ul>
       </div>
     </section>
   </main>
+  <footer class="contacts">
+    <div class="contacts__container">
+      <h2 class="contacts__title section-title">Свяжитесь со мной</h2>
+      <div class="contacts__details">
+        <form class="form">
+          <h3 class="form__heading">Можете просто оставить заявку, я позвоню вам сегодня</h3>
+          <input type="text" name="fullname" id="formName" class="form__text" placeholder="Ваше имя">
+          <input type="tel" name="phone" id="formPhone" class="form__tel" placeholder="Ваш телефон">
+          <button type="submit" name="submit" id="formSubmit" class="form__button">бесплатная консультация</button>
+        </form>
+        <ul class="medium">
+          <li class="medium__phone">
+            <h3 class="medium__name">Телефон</h3>
+            <a href="tel:+79991234567" class="medium__link link">+7 999 123 45 67</a>
+          </li>
+          <li class="medium__email">
+            <h3 class="medium__name">Почта</h3>
+            <a href="mailto:ivanov@mail.ru" class="medium__link link">ivanov@mail.ru</a>
+          </li>
+          <li class="medium__social">
+            <h3 class="medium__name">Соцсети</h3>
+            <ul class="medium__social-list">
+              <li class="medium__social-item"><a href="#" class="medium__link link">t.me/ivanov</a></li>
+              <li class="medium__social-item"><a href="#" class="medium__link link">vk.me/ivanov</a></li>
+              <li class="medium__social-item"><a href="#" class="medium__link link">fb.me/ivanov</a></li>
+            </ul>
+          </li>
+          <li class="medium__social-icons">
+            <a href="#" class="medium__link link"><img src="./images/github.svg" alt="Логотип сервиса «Гитхаб»." class="medium__social-icon"></a>
+            <a href="#" class="medium__link link"><img src="./images/twitter.svg" alt="Логотип соцсети «Твиттер»." class="medium__social-icon"></a>
+            <a href="#" class="medium__link link"><img src="./images/instagram.svg" alt="Логотип соцсети «Инстаграм»." class="medium__social-icon"></a>
+            <a href="#" class="medium__link link"><img src="./images/facebook.svg" alt="Логотип соцсети «Фейсбук»." class="medium__social-icon"></a>
+          </li>
+          <li class="medium__policy">
+            <a href="#" class="medium__policy-link link">Политика конфиденциальности</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

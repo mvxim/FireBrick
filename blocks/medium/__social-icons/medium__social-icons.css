@@ -1,0 +1,17 @@
+.medium__social-icons {
+  grid-row: 3/4;
+  grid-column: 1/3;
+  column-gap: 21px;
+  display: flex;
+  width: 100%;
+  align-self: center;
+}
+
+@media screen and (max-width: 475px) {
+  .medium__social-icons {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    align-items: center;
+    column-gap: 13px;
+  }
+}

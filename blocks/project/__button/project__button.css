@@ -1,5 +1,5 @@
 .project__button {
-  padding: 10px 25px;
+  padding: 8px 21px;
   background-color: #ec1f46;
   border-radius: 4px;
   text-decoration: none;
@@ -11,7 +11,7 @@
   z-index: 3;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 475px) {
   .project__button {
     font-size: 12px;
     line-height: 1.3;
