@@ -1,0 +1,14 @@
+.hero-group__subtitle {
+  color: #FFBB01;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0 0 13px 0;
+}
+
+@media screen and (max-width: 800px) {
+  .hero-group__subtitle {
+    margin: 17px 0 4px 0;
+    font-size: 16px;
+    line-height: 27px;
+  }  
+}
