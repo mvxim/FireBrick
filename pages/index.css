@@ -67,6 +67,8 @@
 @import url(../blocks/gallery/__grid/gallery__grid.css);
 @import url(../blocks/gallery/__list-item/gallery__list-item.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
+@import url(../blocks/gallery/__list-video/gallery__list-video.css);
+@import url(../blocks/gallery/__list-item/_video/gallery__list-item_video.css);
 
 /* contacts */
 @import url(../blocks/contacts/contacts.css);

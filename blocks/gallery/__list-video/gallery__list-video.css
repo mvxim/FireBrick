@@ -1,0 +1,11 @@
+.gallery__list-video {
+  margin: 0;
+  padding-right: 19px;
+  position: absolute;
+  background: url(../../../images/play_circle_filled.svg) no-repeat right 1px center;
+  top: 9px;
+  right: 9px;
+  color: #fff;
+  font-size: 14px;
+  z-index: 3;
+}
