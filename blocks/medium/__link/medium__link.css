@@ -1,0 +1,17 @@
+.medium__link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.75;
+  font-weight: 400;
+
+}
+
+@media screen and (max-width: 475px) {
+  .medium__link {
+    font-size: 14px;
+    line-height: 1.1;
+  }
+}

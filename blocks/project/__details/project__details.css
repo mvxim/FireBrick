@@ -6,5 +6,12 @@
   position: absolute;
   left: 30px;
   bottom: 28px;
-  width: 75%;
+  width: 80%;
+}
+
+@media screen and (max-width: 475px) {
+  .project__details {
+    left: 24px;
+    bottom: 24px;
+  }
 }

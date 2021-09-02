@@ -1,0 +1,11 @@
+.medium__social-icon {
+  width: 20px;
+  /* height: auto; */
+}
+
+@media screen and (max-width: 475px) {
+  .medium__social-icon {
+    width: 16px;
+    height: auto;
+  }
+}
