@@ -1,12 +1,44 @@
 /* normalize */
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/font.css);
 
 /* global */
 @import url(../blocks/page/page.css);
-/* @import url(../blocks/page/__container/page__container.css); */
 
 /* content */
 @import url(../blocks/content/content.css);
+
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__socials/header__socials.css);
+
+/* social-icon */
+@import url(../blocks/social-icon/social-icon.css);
+@import url(../blocks/social-icon/__icon/social-icon__icon.css);
+
+/* link */
+@import url(../blocks/link/link.css);
+
+/* hero */
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero-content/hero-content.css);
+@import url(../blocks/hero-group/hero-group.css);
+@import url(../blocks/hero-group/__subtitle/hero-group__subtitle.css);
+@import url(../blocks/hero-group/__title/hero-group__title.css);
+@import url(../blocks/hero-group/__text/hero-group__text.css);
+@import url(../blocks/form-button/form-button.css);
+@import url(../blocks/form-button/__button/form-button__button.css);
+@import url(../blocks/hero-avatar/hero-avatar.css);
+
+/* features */
+@import url(../blocks/features/features.css);
+@import url(../blocks/features-content/features-content.css);
+@import url(../blocks/features-content/__title/features-content__title.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__logo/table__logo.css);
+@import url(../blocks/table/__text/table__text.css);
 
 /* portfolio */
 @import url(../blocks/portfolio/portfolio.css);
