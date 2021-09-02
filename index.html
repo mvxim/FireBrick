@@ -1,63 +1,131 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Киану-фрилансер</title>
   <link rel="stylesheet" href="./pages/index.css">
+  <title>FireBrick</title>
 </head>
-
-<body class="page">
-  <main>
-    <section class="portfolio">
-      <div class="portfolio__container">
-        <h2 class="portfolio__title">Выполненные проекты</h2>
-        <div class="portfolio__projects">
-          <article class="project">
-            <img src="./images/portfolio1.jpg" alt="" class="project__cover">
-            <div class="project__details">
-              <h3 class="project__name">The curious corner of&nbsp;chamarel</h3>
-              <a href="#" class="project__button">Посмотреть</a>
-            </div>
-          </article>
-          <article class="project">
-            <img src="./images/portfolio2.jpg" alt="" class="project__cover">
-            <div class="project__details">
-              <h3 class="project__name">Gymkhana club golf&nbsp;course</h3>
-              <a href="#" class="project__button">Посмотреть</a>
-            </div>
-          </article>
-          <article class="project">
-            <img src="./images/portfolio3.jpg" alt="" class="project__cover">
-            <div class="project__details">
-              <h3 class="project__name">Tamarind falls hiking trip&nbsp;-&nbsp;full day</h3>
-              <a href="#" class="project__button">Посмотреть</a>
-            </div>
-          </article>
+<body>
+  <div class="page">
+    <header class="header">
+      <a href="#" target="_blank" class="link">
+        <img src="./images/logo.svg" alt="дискорд" class="header__logo">
+      </a>
+      <div class="header__socials">
+        <a href="#" target="_blank" class="social-icon link"><img src="./images/github.svg" alt="гитхаб" class="social-icon__icon"></a>
+        <a href="#" target="_blank" class="social-icon link"><img src="./images/twitter.svg" alt="твиттер" class="social-icon__icon"></a>
+        <a href="#" target="_blank" class="social-icon link"><img src="./images/instagram.svg" alt="инстаграм" class="social-icon__icon"></a>
+        <a href="#" target="_blank" class="social-icon link"><img src="./images/facebook.svg" alt="фейсбук" class="social-icon__icon"></a>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <article class="hero-content">
+          <ul class="hero-group">
+            <li>
+              <p class="hero-group__subtitle">Фрилансер</p>
+            </li>
+            <li>
+              <h1 class="hero-group__title">Петр Федоров</h1>
+            </li>
+            <li>
+              <p class="hero-group__text">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
+            </li>
+            <li>
+              <form class="form-button">
+                <button class="form-button__button">Бесплатная консультация</button>
+              </form>
+            </li>
+          </ul>
+          <img src="images/avatar.jpg" class="hero-avatar" alt="Киану Ривз">
+        </article>
+      </section>
+      <section class="features">
+        <div class="features-content">
+          <h2 class="features-content__title">Со мной удобно работать</h2>
+          <ul class="table">
+            <li>
+              <img src="./images/offer-img.svg" alt="контракт" class="table__logo">
+              <h3 class="table__heading">По договору</h3>
+              <p class="table__text">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
+            </li>
+            <li>
+              <img src="./images/deadline-img.svg" alt="календарь" class="table__logo">
+              <h3 class="table__heading">Точно в срок</h3>
+              <p class="table__text">В договоре прописана моя ответственность за срок проекта. Если просрочу — плачу неустойку.</p>
+            </li>
+            <li>
+              <img src="./images/agreement-img.svg" alt="рукопожатие" class="table__logo">
+              <h3 class="table__heading">Ценник под вас</h3>
+              <p class="table__text">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.</p>
+            </li>
+            <li>
+              <img src="./images/steps-img.svg" alt="соглашение" class="table__logo">
+              <h3 class="table__heading">Промежуточные итоги</h3>
+              <p class="table__text">Показываю работу поэтапно, а не в последий момент перед крайним сроком.</p>
+            </li>
+            <li>
+              <img src="./images/storage-img.svg" alt="хранилище" class="table__logo">
+              <h3 class="table__heading">Хостинг и домен</h3>
+              <p class="table__text">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
+            </li>
+            <li>
+              <img src="./images/conversation-img.svg" alt="обсуждение" class="table__logo">
+              <h3 class="table__heading">Не брошу после сдачи</h3>
+              <p class="table__text">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
+            </li>
+          </ul>
         </div>
-      </div>
-    </section>
-    <section class="gallery">
-      <div class="gallery__container">
-        <ul class="gallery__grid">
-          <li class="gallery__list-item"><img src="./images/gallery01.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery02.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery03.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery04.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery05.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery06.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery07.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery08.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery09.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery10.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery11.jpg" alt="" class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery12.jpg" alt="" class="gallery__image"></li>
-        </ul>
-      </div>
-    </section>
-  </main>
+      </section>
+      <section class="portfolio">
+        <div class="portfolio__container">
+          <h2 class="portfolio__title">Выполненные проекты</h2>
+          <div class="portfolio__projects">
+            <article class="project">
+              <img src="./images/portfolio1.jpg" alt="" class="project__cover">
+              <div class="project__details">
+                <h3 class="project__name">The curious corner of&nbsp;chamarel</h3>
+                <a href="#" class="project__button">Посмотреть</a>
+              </div>
+            </article>
+            <article class="project">
+              <img src="./images/portfolio2.jpg" alt="" class="project__cover">
+              <div class="project__details">
+                <h3 class="project__name">Gymkhana club golf&nbsp;course</h3>
+                <a href="#" class="project__button">Посмотреть</a>
+              </div>
+            </article>
+            <article class="project">
+              <img src="./images/portfolio3.jpg" alt="" class="project__cover">
+              <div class="project__details">
+                <h3 class="project__name">Tamarind falls hiking trip&nbsp;-&nbsp;full day</h3>
+                <a href="#" class="project__button">Посмотреть</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="gallery">
+        <div class="gallery__container">
+          <ul class="gallery__grid">
+            <li class="gallery__list-item"><img src="./images/gallery01.jpg" alt="" class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery02.jpg" alt="" class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery03.jpg" alt="" class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery04.jpg" alt="" class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery05.jpg" alt="" class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery06.jpg" alt="" class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery07.jpg" alt="" class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery08.jpg" alt="" class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery09.jpg" alt="" class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery10.jpg" alt="" class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery11.jpg" alt="" class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery12.jpg" alt="" class="gallery__image"></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
-
 </html>
