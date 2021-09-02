@@ -1,107 +1,174 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Киану-фрилансер</title>
   <link rel="stylesheet" href="./pages/index.css">
+  <title>FireBrick</title>
 </head>
-
-<body class="page">
-  <main class="content">
-    <section class="portfolio">
-      <div class="portfolio__container">
-        <h2 class="portfolio__title section-title">Выполненные проекты</h2>
-        <div class="portfolio__projects">
-          <article class="project">
-            <img src="./images/portfolio1.jpg" alt="МУжчина и женщина готовят напитки, стоя за барной стойкой." class="project__cover">
-            <div class="project__details">
-              <h3 class="project__name">The curious corner
-                of&nbsp;chamarel</h3>
-              <a href="#" class="project__button">Посмотреть</a>
-            </div>
-          </article>
-          <article class="project">
-            <img src="./images/portfolio2.jpg" alt="Гольфист только что совершил удар по мячу." class="project__cover">
-            <div class="project__details">
-              <h3 class="project__name">Gymkhana club golf
-                course</h3>
-              <a href="#" class="project__button">Посмотреть</a>
-            </div>
-          </article>
-          <article class="project">
-            <img src="./images/portfolio3.jpg" alt="Высокий водопад среди скал, покрытых зелеными мхами." class="project__cover">
-            <div class="project__details">
-              <h3 class="project__name">Tamarind falls hiking
-                trip full day</h3>
-              <a href="#" class="project__button">Посмотреть</a>
-            </div>
-          </article>
+<body>
+  <div class="page">
+    <header class="header">
+      <a href="#" target="_blank" class="link">
+        <img src="./images/logo.svg" alt="дискорд" class="header__logo">
+      </a>
+      <div class="header__socials">
+        <a href="#" target="_blank" class="social-icon link"><img src="./images/github.svg" alt="гитхаб" class="social-icon__icon"></a>
+        <a href="#" target="_blank" class="social-icon link"><img src="./images/twitter.svg" alt="твиттер" class="social-icon__icon"></a>
+        <a href="#" target="_blank" class="social-icon link"><img src="./images/instagram.svg" alt="инстаграм" class="social-icon__icon"></a>
+        <a href="#" target="_blank" class="social-icon link"><img src="./images/facebook.svg" alt="фейсбук" class="social-icon__icon"></a>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <article class="hero-content">
+          <ul class="hero-group">
+            <li>
+              <p class="hero-group__subtitle">Фрилансер</p>
+            </li>
+            <li>
+              <h1 class="hero-group__title">Петр Федоров</h1>
+            </li>
+            <li>
+              <p class="hero-group__text">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
+            </li>
+            <li>
+              <form class="form-button">
+                <button class="form-button__button">Бесплатная консультация</button>
+              </form>
+            </li>
+          </ul>
+          <img src="images/avatar.jpg" class="hero-avatar" alt="Киану Ривз">
+        </article>
+      </section>
+      <section class="features">
+        <div class="features-content">
+          <h2 class="features-content__title">Со мной удобно работать</h2>
+          <ul class="table">
+            <li>
+              <img src="./images/offer-img.svg" alt="контракт" class="table__logo">
+              <h3 class="table__heading">По договору</h3>
+              <p class="table__text">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
+            </li>
+            <li>
+              <img src="./images/deadline-img.svg" alt="календарь" class="table__logo">
+              <h3 class="table__heading">Точно в срок</h3>
+              <p class="table__text">В договоре прописана моя ответственность за срок проекта. Если просрочу — плачу неустойку.</p>
+            </li>
+            <li>
+              <img src="./images/agreement-img.svg" alt="рукопожатие" class="table__logo">
+              <h3 class="table__heading">Ценник под вас</h3>
+              <p class="table__text">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.</p>
+            </li>
+            <li>
+              <img src="./images/steps-img.svg" alt="соглашение" class="table__logo">
+              <h3 class="table__heading">Промежуточные итоги</h3>
+              <p class="table__text">Показываю работу поэтапно, а не в последий момент перед крайним сроком.</p>
+            </li>
+            <li>
+              <img src="./images/storage-img.svg" alt="хранилище" class="table__logo">
+              <h3 class="table__heading">Хостинг и домен</h3>
+              <p class="table__text">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
+            </li>
+            <li>
+              <img src="./images/conversation-img.svg" alt="обсуждение" class="table__logo">
+              <h3 class="table__heading">Не брошу после сдачи</h3>
+              <p class="table__text">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="portfolio__container">
+          <h2 class="portfolio__title section-title">Выполненные проекты</h2>
+          <div class="portfolio__projects">
+            <article class="project">
+              <img src="./images/portfolio1.jpg" alt="МУжчина и женщина готовят напитки, стоя за барной стойкой." class="project__cover">
+              <div class="project__details">
+                <h3 class="project__name">The curious corner
+                  of&nbsp;chamarel</h3>
+                <a href="#" class="project__button">Посмотреть</a>
+              </div>
+            </article>
+            <article class="project">
+              <img src="./images/portfolio2.jpg" alt="Гольфист только что совершил удар по мячу." class="project__cover">
+              <div class="project__details">
+                <h3 class="project__name">Gymkhana club golf
+                  course</h3>
+                <a href="#" class="project__button">Посмотреть</a>
+              </div>
+            </article>
+            <article class="project">
+              <img src="./images/portfolio3.jpg" alt="Высокий водопад среди скал, покрытых зелеными мхами." class="project__cover">
+              <div class="project__details">
+                <h3 class="project__name">Tamarind falls hiking
+                  trip full day</h3>
+                <a href="#" class="project__button">Посмотреть</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="gallery">
+        <div class="gallery__container">
+          <ul class="gallery__grid">
+            <li class="gallery__list-item"><img src="./images/gallery01.jpg" alt="Лаунж-зона с диваном, журнальным столиком, и ковром, на котором лежит белая собака." class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery02.jpg" alt="Ряд столиков с местами на двоих, с подушками и лампами." class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery03.jpg" alt="Группа людей, которые разговаривают и смеются." class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery04.jpg" alt="Светлая офисная столовая с длинными столами и зелеными растениями." class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery05.jpg" alt="Уличная вывеска с логотипом компании «Фигма»." class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery06.jpg" alt="Крупный план ноутбука и темнокожей девушки, работающей за ним." class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery07.jpg" alt="Книжная полка в светлом помещении. На полке — книги и элементы декора." class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery08.jpg" alt="Столик на четверых в светлой офисной столовой." class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery09.jpg" alt="Темнокожая девушка позирует для фото и очаровательно улыбается." class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery10.jpg" alt="Крупный план блокнота на столе, в который мужчина с помощью штампа ставит оттиск со словом «Figma»." class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery11.jpg" alt="Мост «Золотые ворота» в городе Сан-франциско в сумерках." class="gallery__image"></li>
+            <li class="gallery__list-item"><img src="./images/gallery12.jpg" alt="Компания работников принимает пищу, сидя за общим столом." class="gallery__image"></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="contacts">
+      <div class="contacts__container">
+        <h2 class="contacts__title section-title">Свяжитесь со мной</h2>
+        <div class="contacts__details">
+          <form class="form">
+            <h3 class="form__heading">Можете просто оставить заявку, я позвоню вам сегодня</h3>
+            <input type="text" name="fullname" id="formName" class="form__text" placeholder="Ваше имя">
+            <input type="tel" name="phone" id="formPhone" class="form__tel" placeholder="Ваш телефон">
+            <button type="submit" name="submit" id="formSubmit" class="form__button">бесплатная консультация</button>
+          </form>
+          <ul class="medium">
+            <li class="medium__phone">
+              <h3 class="medium__name">Телефон</h3>
+              <a href="tel:+79991234567" class="medium__link link">+7 999 123 45 67</a>
+            </li>
+            <li class="medium__email">
+              <h3 class="medium__name">Почта</h3>
+              <a href="mailto:ivanov@mail.ru" class="medium__link link">ivanov@mail.ru</a>
+            </li>
+            <li class="medium__social">
+              <h3 class="medium__name">Соцсети</h3>
+              <ul class="medium__social-list">
+                <li class="medium__social-item"><a href="#" class="medium__link link">t.me/ivanov</a></li>
+                <li class="medium__social-item"><a href="#" class="medium__link link">vk.me/ivanov</a></li>
+                <li class="medium__social-item"><a href="#" class="medium__link link">fb.me/ivanov</a></li>
+              </ul>
+            </li>
+            <li class="medium__social-icons">
+              <a href="#" class="medium__link link"><img src="./images/github.svg" alt="Логотип сервиса «Гитхаб»." class="medium__social-icon"></a>
+              <a href="#" class="medium__link link"><img src="./images/twitter.svg" alt="Логотип соцсети «Твиттер»." class="medium__social-icon"></a>
+              <a href="#" class="medium__link link"><img src="./images/instagram.svg" alt="Логотип соцсети «Инстаграм»." class="medium__social-icon"></a>
+              <a href="#" class="medium__link link"><img src="./images/facebook.svg" alt="Логотип соцсети «Фейсбук»." class="medium__social-icon"></a>
+            </li>
+            <li class="medium__policy">
+              <a href="#" class="medium__policy-link link">Политика конфиденциальности</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </section>
-    <section class="gallery">
-      <div class="gallery__container">
-        <ul class="gallery__grid">
-          <li class="gallery__list-item"><img src="./images/gallery01.jpg" alt="Лаунж-зона с диваном, журнальным столиком, и ковром, на котором лежит белая собака." class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery02.jpg" alt="Ряд столиков с местами на двоих, с подушками и лампами." class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery03.jpg" alt="Группа людей, которые разговаривают и смеются." class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery04.jpg" alt="Светлая офисная столовая с длинными столами и зелеными растениями." class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery05.jpg" alt="Уличная вывеска с логотипом компании «Фигма»." class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery06.jpg" alt="Крупный план ноутбука и темнокожей девушки, работающей за ним." class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery07.jpg" alt="Книжная полка в светлом помещении. На полке — книги и элементы декора." class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery08.jpg" alt="Столик на четверых в светлой офисной столовой." class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery09.jpg" alt="Темнокожая девушка позирует для фото и очаровательно улыбается." class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery10.jpg" alt="Крупный план блокнота на столе, в который мужчина с помощью штампа ставит оттиск со словом «Figma»." class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery11.jpg" alt="Мост «Золотые ворота» в городе Сан-франциско в сумерках." class="gallery__image"></li>
-          <li class="gallery__list-item"><img src="./images/gallery12.jpg" alt="Компания работников принимает пищу, сидя за общим столом." class="gallery__image"></li>
-        </ul>
-      </div>
-    </section>
-  </main>
-  <footer class="contacts">
-    <div class="contacts__container">
-      <h2 class="contacts__title section-title">Свяжитесь со мной</h2>
-      <div class="contacts__details">
-        <form class="form">
-          <h3 class="form__heading">Можете просто оставить заявку, я позвоню вам сегодня</h3>
-          <input type="text" name="fullname" id="formName" class="form__text" placeholder="Ваше имя">
-          <input type="tel" name="phone" id="formPhone" class="form__tel" placeholder="Ваш телефон">
-          <button type="submit" name="submit" id="formSubmit" class="form__button">бесплатная консультация</button>
-        </form>
-        <ul class="medium">
-          <li class="medium__phone">
-            <h3 class="medium__name">Телефон</h3>
-            <a href="tel:+79991234567" class="medium__link link">+7 999 123 45 67</a>
-          </li>
-          <li class="medium__email">
-            <h3 class="medium__name">Почта</h3>
-            <a href="mailto:ivanov@mail.ru" class="medium__link link">ivanov@mail.ru</a>
-          </li>
-          <li class="medium__social">
-            <h3 class="medium__name">Соцсети</h3>
-            <ul class="medium__social-list">
-              <li class="medium__social-item"><a href="#" class="medium__link link">t.me/ivanov</a></li>
-              <li class="medium__social-item"><a href="#" class="medium__link link">vk.me/ivanov</a></li>
-              <li class="medium__social-item"><a href="#" class="medium__link link">fb.me/ivanov</a></li>
-            </ul>
-          </li>
-          <li class="medium__social-icons">
-            <a href="#" class="medium__link link"><img src="./images/github.svg" alt="Логотип сервиса «Гитхаб»." class="medium__social-icon"></a>
-            <a href="#" class="medium__link link"><img src="./images/twitter.svg" alt="Логотип соцсети «Твиттер»." class="medium__social-icon"></a>
-            <a href="#" class="medium__link link"><img src="./images/instagram.svg" alt="Логотип соцсети «Инстаграм»." class="medium__social-icon"></a>
-            <a href="#" class="medium__link link"><img src="./images/facebook.svg" alt="Логотип соцсети «Фейсбук»." class="medium__social-icon"></a>
-          </li>
-          <li class="medium__policy">
-            <a href="#" class="medium__policy-link link">Политика конфиденциальности</a>
-          </li>
-        </ul>
-
-      </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 </body>
-
 </html>
