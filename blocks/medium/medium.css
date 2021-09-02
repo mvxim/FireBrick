@@ -1,0 +1,23 @@
+.medium {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(225px, 1fr));
+  grid-auto-rows: min-content min-content min-content 1fr;
+  row-gap: 32px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1040px) {
+  .medium {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .medium {
+    grid-template-columns: 1fr;
+    grid-auto-rows: min-content;
+    row-gap: 35px;
+  }
+}

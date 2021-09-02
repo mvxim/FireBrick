@@ -3,8 +3,8 @@
   font-style: normal;
   font-weight: 400;
   src: local(''),
-       url('./fonts/roboto-v27-latin_cyrillic-regular.woff2') format('woff2'),
-       url('./fonts/roboto-v27-latin_cyrillic-regular.woff') format('woff');
+       url('./roboto-v27-latin_cyrillic-regular.woff2') format('woff2'),
+       url('./roboto-v27-latin_cyrillic-regular.woff') format('woff');
 }
 
 @font-face {
@@ -12,6 +12,6 @@
   font-style: normal;
   font-weight: 700;
   src: local(''),
-       url('./fonts/roboto-v27-latin_cyrillic-700.woff2') format('woff2'),
-       url('./fonts/roboto-v27-latin_cyrillic-700.woff') format('woff');
+       url('./roboto-v27-latin_cyrillic-700.woff2') format('woff2'),
+       url('./roboto-v27-latin_cyrillic-700.woff') format('woff');
 }
