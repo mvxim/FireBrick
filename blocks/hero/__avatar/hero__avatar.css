@@ -1,4 +1,4 @@
-.hero-avatar {
+.hero__avatar {
   align-self: center;
   max-width: 362px;
   border-radius: 50%;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 475px) {
-  .hero-avatar {
+  .hero__avatar {
     max-width: 107px;
     border: 3px solid #FFFFFF;
   }  

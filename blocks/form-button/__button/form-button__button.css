@@ -11,6 +11,7 @@
   line-height: 16px;
   text-transform: uppercase;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .form-button__button:hover {

@@ -2,7 +2,6 @@
 @import url(../vendor/normalize.css);
 
 @import url(../vendor/fonts/fonts.css);
-@import url(../vendor/fonts/font.css);
 
 /* global */
 @import url(../blocks/page/page.css);
@@ -13,25 +12,26 @@
 /* header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__socials/header__socials.css);
+@import url(../blocks/header/__link/header__link.css);
 
-/* social-icon */
-@import url(../blocks/social-icon/social-icon.css);
-@import url(../blocks/social-icon/__icon/social-icon__icon.css);
+/* social-icons */
+@import url(../blocks/social-icons/social-icons.css);
+@import url(../blocks/social-icons/__link/social-icons__link.css);
+@import url(../blocks/social-icons/__icon/social-icons__icon.css);
 
 /* link */
 @import url(../blocks/link/link.css);
 
 /* hero */
 @import url(../blocks/hero/hero.css);
-@import url(../blocks/hero-content/hero-content.css);
+@import url(../blocks/hero/__content/hero___content.css);
+@import url(../blocks/hero/__avatar/hero__avatar.css);
 @import url(../blocks/hero-group/hero-group.css);
 @import url(../blocks/hero-group/__subtitle/hero-group__subtitle.css);
 @import url(../blocks/hero-group/__title/hero-group__title.css);
 @import url(../blocks/hero-group/__text/hero-group__text.css);
 @import url(../blocks/form-button/form-button.css);
 @import url(../blocks/form-button/__button/form-button__button.css);
-@import url(../blocks/hero-avatar/hero-avatar.css);
 
 /* features */
 @import url(../blocks/features/features.css);

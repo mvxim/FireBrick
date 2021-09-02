@@ -1,9 +1,9 @@
-.social-icon__icon {
+.social-icons__icon {
   display: block;
 }
 
 @media screen and (max-width: 475px) {
-  .social-icon__icon {
+  .social-icons__icon {
     width: 80%;
   }  
 }
