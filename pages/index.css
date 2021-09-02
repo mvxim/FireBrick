@@ -8,6 +8,7 @@
 @import url(../blocks/header/__socials/header__socials.css);
 
 @import url(../blocks/social-icon/social-icon.css);
+@import url(../blocks/social-icon/__icon/social-icon__icon.css);
 
 @import url(../blocks/link/link.css);
 

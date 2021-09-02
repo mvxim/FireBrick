@@ -3,3 +3,11 @@
   font-size: 50px;
   line-height: 59px;
 }
+
+@media screen and (max-width: 475px) {
+  .hero-group__title {
+    margin: 0 0 15px 0;
+    font-size: 24px;
+    line-height: 28px;
+  }  
+}

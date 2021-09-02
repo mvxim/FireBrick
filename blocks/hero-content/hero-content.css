@@ -9,5 +9,7 @@
 @media screen and (max-width: 800px) {
   .hero-content {
     flex-direction: column-reverse;
+    text-align: center;
+    padding: 46px 0 42px;
   }
 }

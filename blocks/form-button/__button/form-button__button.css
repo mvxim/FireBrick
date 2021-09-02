@@ -1,7 +1,4 @@
 .form-button__button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
   width: 300px;
   border: 0;
   border-radius: 10px;
@@ -19,4 +16,13 @@
 .form-button__button:hover {
   opacity: 0.9;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 475px) {
+  .form-button__button {
+    width: 267px;
+    padding: 15px 0;
+    font-size: 10px;
+    line-height: 13px;
+  }  
 }
