@@ -1,7 +1,13 @@
 .hero-group {
   max-width: 444px;
   align-self: center;
-  padding: 0;
+  padding: 0 16px 0 0;
   list-style: none;
   margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .hero-group {
+    padding: 0;
+  }
 }

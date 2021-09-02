@@ -3,14 +3,14 @@
   padding: 0 0 92px 0;
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 304px);
+  grid-template-columns: repeat(auto-fit, minmax(304px, 1fr));
   gap: 64px 16px;
 }
 
 @media screen and (max-width: 475px) {
   .table {
     padding: 0 0 59px 0;
-    grid-template-columns: repeat(auto-fill, 267px);
+    grid-template-columns: repeat(auto-fit, minmax(267px, 1fr));
     gap: 30px;
-  }  
+  }
 }
