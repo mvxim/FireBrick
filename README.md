@@ -14,5 +14,6 @@
 - [x] Git
 - [x] Оптимизация изображений с помощью TinyPNG4mac
 
-## Посмотреть макет:
-[В Фигме](https://www.figma.com/file/qXZjpqrgj0jjb9IZGRQZdT/Keanu-freelancer?node-id=0%3A1)
+## Посмотреть работу:
+[Макет в Фигме](https://www.figma.com/file/qXZjpqrgj0jjb9IZGRQZdT/Keanu-freelancer?node-id=0%3A1)
+[Страница на Github Pages](https://mvxim.github.io/FireBrick/index.html)
