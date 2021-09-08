@@ -15,5 +15,5 @@
 - [x] Оптимизация изображений с помощью TinyPNG4mac
 
 ## Посмотреть работу:
-[Макет в Фигме](https://www.figma.com/file/qXZjpqrgj0jjb9IZGRQZdT/Keanu-freelancer?node-id=0%3A1)
+[Макет в Фигме](https://www.figma.com/file/qXZjpqrgj0jjb9IZGRQZdT/Keanu-freelancer?node-id=0%3A1)<br/>
 [Страница на Github Pages](https://mvxim.github.io/FireBrick/index.html)
